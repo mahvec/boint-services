@@ -1,5 +1,3 @@
-import { Button } from "../../../components/ui/button";
-
 export default function AboutUs() {
   return (
     <main className="w-full">
