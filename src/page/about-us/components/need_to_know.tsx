@@ -33,6 +33,7 @@ export default function NeedToKnow() {
           <img
             src="/about-us.svg"
             alt="Biont Services Team Meeting"
+            loading="lazy"
             className="rounded-3xl xl:w-[70%] h-full object-cover shadow-lg"
           />
         </div>

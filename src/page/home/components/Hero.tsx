@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Hero() {
   return (
     <main className="w-full overflow-x-hidden h-full">
@@ -7,6 +9,7 @@ export default function Hero() {
           <img
             src="/background.gif"
             alt="Skyscraper background"
+            loading="lazy"
             className="w-full h-full object-cover opacity-60"
           />
           <div className="absolute inset-0 bg-black/20" />
@@ -26,10 +29,13 @@ export default function Hero() {
           solutions.
         </p>
         {/* CTA Button */}
-        <button className="bg-[#C18932]  hover:bg-[#a97a2a] text-white text-lg rounded-md shadow transition-colors p-3">
+        <Link
+          to={"/what-we-do"}
+          className="bg-[#C18932]  hover:bg-[#a97a2a] text-white text-lg rounded-md shadow transition-colors p-3"
+        >
           Explore Services
           <span className="ml-2">→</span>
-        </button>
+        </Link>
       </section>
     </main>
   );

@@ -16,7 +16,7 @@ export default function Navbar() {
 
         {/* Hamburger for mobile */}
         <button
-          className="md:hidden flex flex-col justify-center items-center ml-2"
+          className="md:hidden flex flex-col justify-center items-center ml-2 z-50"
           onClick={() => setMenuOpen((v) => !v)}
           aria-label="Toggle menu"
         >
@@ -39,9 +39,9 @@ export default function Navbar() {
 
         {/* Links and button */}
         <div
-          className={`flex-col text-xs md:text-sm md:flex-row md:flex items-center w-full md:w-2/3 capitalize justify-center md:justify-between gap-4 font-medium fixed md:static left-0 right-0 bg-white md:bg-transparent shadow md:shadow-none transition ease-in-out duration-500 ${
+          className={`flex-col text-xs md:text-sm md:flex-row md:flex items-center w-full md:w-2/3 capitalize justify-center md:justify-between gap-4 font-medium fixed md:static left-0 right-0 bg-white md:bg-transparent shadow-lg md:shadow-none transition ease-in-out duration-500 ${
             menuOpen
-              ? "flex z-50 top-0 h-screen md:h-auto overflow-y-auto transition-all ease-in-out duration-500" // Full screen height and scrollable on mobile when open
+              ? "flex z-30 top-0 h-[70%] md:h-auto overflow-y-auto transition-all ease-in-out duration-500" // Full screen height and scrollable on mobile when open
               : " md:flex flex z-0 -top-[200%] h-screen md:h-auto transition-all ease-in-out duration-700"
           }`}
         >

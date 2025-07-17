@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function AboutUs() {
   return (
     <main className="w-full">
@@ -40,9 +42,9 @@ export default function AboutUs() {
               private sector clients in various industries.
             </p>
           </div>
-          <button className="bg-[#C18932] hover:bg-[#a97a2a]  text-white px-10 py-4 text-lg rounded-md shadow transition-colors mt-4">
+          <Link to={'/about-us'} className="bg-[#C18932] hover:bg-[#a97a2a]  text-white px-10 py-4 text-lg rounded-md shadow transition-colors mt-4">
             Learn More <span className="ml-2">→</span>
-          </button>
+          </Link>
         </div>
         {/* Right: Image */}
         <div className="flex-1 flex items-center justify-center w-full lg:w-1/2">

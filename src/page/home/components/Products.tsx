@@ -1,17 +1,20 @@
 const products = [
   {
+    link: "/our-products",
     image: "/ryderhome.png",
     number: "1.",
     title: "Ryder mobile app",
     desc: "To revolutionize local deliveries by connecting users with a network of reliable riders, ensuring fast, convenient, and trackable service.",
   },
   {
+    link: "/our-products",
     image: "/cpacshome.png",
     number: "2.",
     title: "Centralized Payroll-based Credit System (CPACS)",
     desc: "CPACS aims to simplify and centralize staff loan management for faster processing, guaranteed repayments, and improved transparency.",
   },
   {
+    link: "/our-products",
     image: "/ibrashome.png",
     number: "3.",
     title: "Integrated Billing and Revenue Assurance System (IBRAS)",
@@ -44,6 +47,7 @@ export default function Products() {
                 <img
                   src={product.image}
                   alt={product.title}
+                  loading="lazy"
                   className="rounded-2xl w-full object-cover shadow-lg"
                 />
               </div>
@@ -60,7 +64,7 @@ export default function Products() {
                   <p className="text-gray-600 mb-6">{product.desc}</p>
                   <div className="">
                     <a
-                      href="#"
+                      href={product.link}
                       className="inline-block bg-[#F5E3C0] text-[#C18932] font-medium px-6 py-2 rounded-md shadow hover:bg-[#e6d1a7] transition-colors"
                     >
                       Learn More <span className="ml-2">→</span>

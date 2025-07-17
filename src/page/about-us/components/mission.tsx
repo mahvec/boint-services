@@ -31,6 +31,7 @@ export default function Mission() {
           <div className="flex-shrink-0 w-full flex flex-col lg:w-1/2 sm:flex-row items-center  justify-between gap-16">
             <img
               src="/mission1.png"
+              loading="lazy"
               alt="Our Mission and Vision illustration"
               className="w-[240px] h-[194px]"
             />
@@ -56,6 +57,7 @@ export default function Mission() {
               <img
                 src={item.image}
                 alt={`${item.title} icon`}
+                loading="lazy"
                 className="h-24 w-24 mb-8 object-contain"
               />
               <h3 className="font-bold text-lg text-gray-800 mb-4">

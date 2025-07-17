@@ -1,5 +1,3 @@
-
-
 export default function WhatWeDoHero() {
   return (
     <main className="w-full h-[calc(100vh-30vh)] lg:h-[50vh] overflow-x-hidden">
@@ -9,6 +7,7 @@ export default function WhatWeDoHero() {
           <img
             src="/background.gif"
             alt="Skyscraper background"
+            loading="lazy"
             className="w-full h-full object-cover opacity-60"
           />
           <div className="absolute inset-0 bg-black/20" />

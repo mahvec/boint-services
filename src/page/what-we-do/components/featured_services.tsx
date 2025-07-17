@@ -242,6 +242,7 @@ export default function FeaturedServices() {
               exit="exit"
               src={service.image.replace("/public", "")}
               alt={service.title}
+              loading="lazy"
               className="lg:w-[70%] h-auto object-cover rounded-xl"
             />
           </AnimatePresence>

@@ -79,6 +79,7 @@ export default function ProductList() {
               src={product.image}
               alt={product.title}
               className=" h-[70%]"
+              loading="lazy"
               style={{ background: "#FFF9F0" }}
             />
           </div>

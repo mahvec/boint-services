@@ -21,15 +21,15 @@ export default function Footer() {
           <div className="flex  w-full md:w-1/3 flex-row gap-8 md:gap-14 justify-between md:justify-start mb-8 md:mb-0">
             <div className="capitalize flex flex-col gap-2">
               <p className="font-bold">Company</p>
-              <Link to="">about us</Link>
-              <Link to="">partners</Link>
-              <Link to="">our services</Link>
+              <Link to="/about-us">about us</Link>
+              <Link to="/our-products">Products</Link>
+              <Link to="/what-we-do">our services</Link>
             </div>
             <div className="flex flex-col gap-2">
               <p className="font-bold">Our Products</p>
-              <p>Ryder Mobile App</p>
-              <p>CPACS</p>
-              <p>IBRAS</p>
+              <Link to={'/our-products'}>Ryder Mobile App</Link>
+              <Link to={'/our-products'}>CPACS</Link>
+              <Link to={'/our-products'}>IBRAS</Link>
             </div>
           </div>
           {/* Newsletter */}
