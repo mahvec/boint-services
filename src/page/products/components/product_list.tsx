@@ -1,8 +1,11 @@
 import { useState } from "react";
+import ryder from "@/assets/ryder.png";
+import cpacs from "@/assets/cpacs.png";
+import ibras from "@/assets/ibras.png";
 
 const products = [
   {
-    image: "/ryder.png",
+    image: ryder,
     number: "1",
     title: "Ryder mobile app",
     objective:
@@ -17,7 +20,7 @@ const products = [
     ],
   },
   {
-    image: "/cpacs.png",
+    image: cpacs,
     number: "2",
     title: "Centralized Payroll-based Credit System (CPACS)",
     objective:
@@ -34,7 +37,7 @@ const products = [
     ],
   },
   {
-    image: "/ibras.png",
+    image: ibras,
     number: "3",
     title: "Integrated Billing and Revenue Assurance System (IBRAS)",
     objective:
