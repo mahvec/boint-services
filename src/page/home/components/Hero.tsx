@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import background from "@/assets/background.gif";
 
 export default function Hero() {
   return (
@@ -8,7 +7,7 @@ export default function Hero() {
         {/* Background overlay */}
         <div className="absolute inset-0 -z-10">
           <img
-            src={background}
+            src={'/background.gif'}
             alt="Skyscraper background"
             loading="lazy"
             className="w-full h-full object-cover opacity-60"

@@ -1,4 +1,4 @@
-import background from "@/assets/background.gif";
+
 
 export default function WhatWeDoHero() {
   return (
@@ -7,7 +7,7 @@ export default function WhatWeDoHero() {
         {/* Background overlay */}
         <div className="absolute inset-0 -z-10">
           <img
-            src={background}
+            src={'/background.gif'}
             alt="Skyscraper background"
             loading="lazy"
             className="w-full h-full object-cover opacity-60"
