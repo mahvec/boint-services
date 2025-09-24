@@ -1,3 +1,5 @@
+import aboutus from "@/assets/about-us.svg";
+
 export default function NeedToKnow() {
   return (
     <section className="w-full lg:h-screen flex items-center justify-center  container mx-auto p-4">
@@ -31,7 +33,7 @@ export default function NeedToKnow() {
 
         <div className="w-full mb-8 md:mb-0 flex items-center lg:justify-end">
           <img
-            src="/about-us.svg"
+            src={aboutus}
             alt="Biont Services Team Meeting"
             loading="lazy"
             className="rounded-3xl xl:w-[70%] h-full object-cover shadow-lg"
