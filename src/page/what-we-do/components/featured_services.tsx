@@ -21,7 +21,7 @@ const services = [
         </p>
       </>
     ),
-    image: "/public/Photo.svg",
+    image: "/Photo.svg",
   },
   {
     title: "Next-Generation  Technology  Solutions",
@@ -39,7 +39,7 @@ const services = [
         </p>
       </>
     ),
-    image: "/public/Photo1.svg",
+    image: "/Photo1.svg",
   },
   {
     title: "Advisory",
@@ -57,7 +57,7 @@ const services = [
         </p>
       </>
     ),
-    image: "/public/Photo2.svg",
+    image: "/Photo2.svg",
   },
   {
     title: "Data-Driven Decision  Making",
@@ -75,7 +75,7 @@ const services = [
         </p>
       </>
     ),
-    image: "/public/Photo3.svg",
+    image: "/Photo3.svg",
   },
   {
     title: "Comprehensive  Training Programs",
@@ -93,7 +93,7 @@ const services = [
         </p>
       </>
     ),
-    image: "/public/Photo4.svg",
+    image: "/Photo4.svg",
   },
   {
     title: "Unwavering  Technical Support",
@@ -111,7 +111,7 @@ const services = [
         </p>
       </>
     ),
-    image: "/public/Photo5.svg",
+    image: "/Photo5.svg",
   },
 ];
 
@@ -240,7 +240,7 @@ export default function FeaturedServices() {
               initial="enter"
               animate="center"
               exit="exit"
-              src={service.image.replace("/public", "")}
+              src={service.image}
               alt={service.title}
               loading="lazy"
               className="lg:w-[70%] h-auto object-cover rounded-xl"
