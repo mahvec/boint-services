@@ -1,3 +1,5 @@
+import background from "@/assets/background.gif";
+
 export default function ContactHero() {
   return (
     <main className="w-full h-[calc(100vh-30vh)] lg:h-[50vh] overflow-x-hidden">
@@ -5,7 +7,7 @@ export default function ContactHero() {
         {/* Background overlay */}
         <div className="absolute inset-0 -z-10">
           <img
-            src="/background.gif"
+            src={background}
             loading="lazy"
             alt="Skyscraper background"
             className="w-full h-full object-cover opacity-60"

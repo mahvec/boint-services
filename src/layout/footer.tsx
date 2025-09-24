@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Link } from "react-router-dom";
+import footerLogo from "@/assets/footer-logo.svg";
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
         <div className="container mx-auto flex flex-col md:flex-row flex-wrap items-start text-white justify-between gap-10 md:gap-0 px-4">
           {/* Address/Logo */}
           <div className="w-full md:w-1/3 mb-8 md:mb-0 flex flex-col items-start">
-            <img src="/footer-logo.svg" alt="" className="mb-4 h-10 w-auto" />
+            <img src={footerLogo} alt="" className="mb-4 h-10 w-auto" />
             <p className="w-full md:w-[70%] text-sm mb-2">
               488, Sulu Gambari Close, 2nd Avenue, Gwarinpa, Abuja, Nigeria
             </p>
@@ -27,9 +28,9 @@ export default function Footer() {
             </div>
             <div className="flex flex-col gap-2">
               <p className="font-bold">Our Products</p>
-              <Link to={'/our-products'}>Ryder Mobile App</Link>
-              <Link to={'/our-products'}>CPACS</Link>
-              <Link to={'/our-products'}>IBRAS</Link>
+              <Link to={"/our-products"}>Ryder Mobile App</Link>
+              <Link to={"/our-products"}>CPACS</Link>
+              <Link to={"/our-products"}>IBRAS</Link>
             </div>
           </div>
           {/* Newsletter */}

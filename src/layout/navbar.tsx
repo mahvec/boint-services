@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
+import bointlogo from "@/assets/bointlogo.png";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,7 +9,7 @@ export default function Navbar() {
       <nav className="container mx-auto flex items-center justify-between capitalize">
         <Link to="/">
           <img
-            src="/bointlogo.png"
+            src={bointlogo}
             alt="boint-services-logo"
             className="h-10 w-auto"
           />

@@ -1,5 +1,11 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Photo from "@/assets/Photo.svg";
+import Photo1 from "@/assets/Photo1.svg";
+import Photo2 from "@/assets/Photo2.svg";
+import Photo3 from "@/assets/Photo3.svg";
+import Photo4 from "@/assets/Photo4.svg";
+import Photo5 from "@/assets/Photo5.svg";
 
 const services = [
   {
@@ -21,7 +27,7 @@ const services = [
         </p>
       </>
     ),
-    image: "/Photo.svg",
+    image: Photo,
   },
   {
     title: "Next-Generation  Technology  Solutions",
@@ -39,7 +45,7 @@ const services = [
         </p>
       </>
     ),
-    image: "/Photo1.svg",
+    image: Photo1,
   },
   {
     title: "Advisory",
@@ -57,7 +63,7 @@ const services = [
         </p>
       </>
     ),
-    image: "/Photo2.svg",
+    image: Photo2,
   },
   {
     title: "Data-Driven Decision  Making",
@@ -75,7 +81,7 @@ const services = [
         </p>
       </>
     ),
-    image: "/Photo3.svg",
+    image: Photo3,
   },
   {
     title: "Comprehensive  Training Programs",
@@ -93,7 +99,7 @@ const services = [
         </p>
       </>
     ),
-    image: "/Photo4.svg",
+    image: Photo4,
   },
   {
     title: "Unwavering  Technical Support",
@@ -111,7 +117,7 @@ const services = [
         </p>
       </>
     ),
-    image: "/Photo5.svg",
+    image: Photo5,
   },
 ];
 
